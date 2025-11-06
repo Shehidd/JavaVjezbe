@@ -12,4 +12,28 @@ public class EProizvodi {
 		        this.uvoznaCijena = uvoznaCijena;
 
 		 }
+
+		 public String getOpis() {
+			 return opis;
+		 }
+
+		 public void setOpis(String opis) {
+			 this.opis = opis;
+		 }
+
+		 public String getSifra() {
+			 return sifra;
+		 }
+
+		 public void setSifra(String sifra) {
+			 this.sifra = sifra;
+		 }
+
+		 public double getUvoznaCijena() {
+			 return uvoznaCijena;
+		 }
+
+		 public void setUvoznaCijena(double uvoznaCijena) {
+			 this.uvoznaCijena = uvoznaCijena;
+		 }
 }

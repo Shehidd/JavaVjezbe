@@ -8,4 +8,12 @@ public class TV extends EProizvodi{
 	        super(opis, sifra, uvoznaCijena);
 	        this.velicinaEkrana = velicinaEkrana;
 	    }
+
+		public double getVelicinaEkrana() {
+			return velicinaEkrana;
+		}
+
+		public void setVelicinaEkrana(double velicinaEkrana) {
+			this.velicinaEkrana = velicinaEkrana;
+		}
 }

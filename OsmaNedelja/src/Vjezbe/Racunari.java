@@ -9,4 +9,20 @@ public class Racunari extends EProizvodi {
         this.procesor = procesor;
         this.memorija = memorija;
     }
+
+	public String getProcesor() {
+		return procesor;
+	}
+
+	public void setProcesor(String procesor) {
+		this.procesor = procesor;
+	}
+
+	public int getMemorija() {
+		return memorija;
+	}
+
+	public void setMemorija(int memorija) {
+		this.memorija = memorija;
+	}
 }
